@@ -1,23 +1,53 @@
-/* Estilos generales */
+
+.h1{
+    background-color: chocolate;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    background-color: aquamarine;
+    font-weight: 200;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+
+header {
+    background-color: gray; 
+    color: white; 
+    padding: 20px;
+    text-align: center;
+  }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: gray; /* Color de fondo gris claro */
+    background-color: white; 
   }
   
-  /* Estilos para el encabezado */
-  header {
-    background-color: gray; /* Color de fondo gris oscuro */
-    color: white; /* Color de texto blanco */
-    padding: 20px;
-    text-align: center;
-  }
-  
-  /* Estilos para la navegación */
   nav ul {
     list-style: none;
-    padding: 0;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     background-color: white;
     margin: 20px 0;
   }
+
+     .parrafo:hover {
+    animation: miAnimacion 1s ease-in-out;
+  }
+
+  footer{
+    background-color: bisque;
+    margin: 20px;
+  }
+  
+  .identificador-parrafo{
+    margin-bottom: 50px;
+
+  }
+  
+

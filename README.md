@@ -6,6 +6,8 @@ Este proyecto es una página web personal creada con HTML para mostrar informaci
 
 **Tecnologías:**
 
+* **CSS:** Para darle estilos a la pagina.
+
 * **HTML5:** Lenguaje de marcado utilizado para estructurar el contenido de la página.
 
 * **Imágenes:** Formatos JPG, PNG 
@@ -17,6 +19,7 @@ Este proyecto es una página web personal creada con HTML para mostrar informaci
 * **imagenes:** Carpeta que almacena las imágenes utilizadas en la página.
 * **about.html:** Archivo de presentacion
 * **pasatiempo.html:** Archivo de pasatiempos
+*  **styles.css:** Archivo que le da los estilos a la pagina.
 
 **Funcionalidades:**
 

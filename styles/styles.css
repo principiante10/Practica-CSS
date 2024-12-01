@@ -13,13 +13,46 @@ body {
     padding: 20px;
     text-align: center;
   }
-  
-  /* Navigation Styles */
-  nav ul {
+
+  .navegador .nav-item {
+    display: flex;
+    padding: 20px;
+    display: inline-block;
     list-style: none;
-    padding: 0; 1
-    margin: 0;
+    margin-right: 10px;
+    
+  
   }
+
+  .seccion-1{
+    background-color: #006E55
+  }
+
+  .seccion-1 .habilidades{
+    width: 50%;
+    vertical-align: middle;
+
+  }
+
+  .seccion-1 .habilidades .imagen-habilidades{
+    max-width: 100%;
+  }
+
+  .contenedor-texto1{
+    color: white;
+    text-align: center;
+    width: 364px;
+  }
+
+  .contenedor-interno{
+    display: inline-block;
+}
+
+  
+  
+  
+
+  
   
   /* Section Styles */
   section {

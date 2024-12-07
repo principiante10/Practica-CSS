@@ -48,12 +48,34 @@ body {
     display: inline-block;
 }
 
-  
+.seccion-2 {
+  background-color:#EF5450 ;
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center; 
+}
+.objetivos{
+  display: flex;
   
   
 
+}
+.imagen-objetivos {
+  display: flex;
+  width: 60%; 
+  height: 100%;
+}
+
+
+
+.contenedor-texto2 {
+  text-align: center;
+  color: white;
+  width: 100%; 
+}
+
   
-  
+ 
   /* Section Styles */
   section {
     padding: 20px;
@@ -71,7 +93,7 @@ body {
   }
   
   h2 {
-    color: blueviolet;
+    color: white;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -93,3 +115,9 @@ body {
     padding: 20px;
     text-align: center;
   }
+
+  /* Esta seccion es para los diseños de flexbox*/
+
+  
+
+ 

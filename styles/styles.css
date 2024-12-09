@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,12 +6,21 @@ body {
     background-color: #fff;
   }
   
-  /* Header Styles */
+  
   header {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
   }
 
   .navegador .nav-item {
@@ -20,7 +29,7 @@ body {
     display: inline-block;
     list-style: none;
     margin-right: 10px;
-    
+    text-decoration: none;
   
   }
 
@@ -46,6 +55,7 @@ body {
 
   .contenedor-interno{
     display: inline-block;
+    
 }
 
 .seccion-2 {
@@ -76,12 +86,12 @@ body {
 
   
  
-  /* Section Styles */
+  
   section {
     padding: 20px;
   }
   
-  /* Heading Styles */
+  
   h1 {
     font-size: 36px;
     font-weight: bold;
@@ -99,25 +109,61 @@ body {
     margin-bottom: 10px;
   }
   
-  /* Paragraph Styles */
-  p {
-    margin-bottom: 10px;
-  }
   
-  /* Hover Effect */
-   .parrafo:hover {
-    background-color: #f0f0f0;
-  }
   
-  /* Footer Styles */
+  
+  
+  
   footer {
     background-color: #ccc;
     padding: 20px;
     text-align: center;
   }
 
-  /* Esta seccion es para los diseños de flexbox*/
+  
+  .seccion-flex-1 {
+    color: white;
+    background-color: #0044B4;
+      display: flex;
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center; 
+      height: 300px; 
+    }
+    
+  .h1 {
+      margin-bottom: 20px; 
+      color: white;
+    }
 
+  .seccion-flex{
+    
+    display: flex;
+
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.seccion-flex .lista{
+  display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+}
+
+  
+.seccion-flex .lista .parrafo{
+  
+  font-weight: 700;
+  color: black;
+}
+
+.seccion-flex .lista .parrafo:hover{
+  
+  color: green;
+
+}
   
 
  

@@ -1,4 +1,6 @@
 
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -164,6 +166,42 @@ body {
   color: green;
 
 }
-  
 
- 
+.cookie-banner {
+  background-color: white;
+  padding: 30px;
+  border-top: 1px solid;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+}
+
+.cookie-banner .cookie-texto{
+  font-weight: bold;
+}
+
+.contenedor-cookie-texto{
+  flex-grow: 1;
+
+}
+
+.cookie-banner .button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 20%; 
+}
+
+.cookie-banner .button-container .accept-cookies{
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  padding: 10px 5px;
+  border-radius: 25px;
+  width: 100px;
+  cursor: pointer;
+}
+.invisible{
+  display: none;
+}

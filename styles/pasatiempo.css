@@ -34,3 +34,25 @@ img{
   height: 200px;
   border-radius: 20px;
 }
+
+.contenedor-galeria {
+
+    display: grid;
+  
+    grid-template-columns: repeat(2, 1fr);
+  
+    gap: 15px;
+  
+  }
+
+  .gallery-item {
+
+    background-color: #f0f0f0;
+  
+    padding: 20px;
+  
+    text-align: center;
+  
+    border-radius: 8px;
+  
+  }
